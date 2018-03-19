@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+ font-family: 'Play', Arial, sans-serif;
+ background-image: url(nathan-anderson-108136-unsplash.jpg);
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+div {
+  text-align: center;
+  height: 100%;
+}
+#txt {
+  color: white;
+  font-size: 50px;
+  line-height: 50vh;
+}
+#message{
+  color: black;
+  font-size: 30px;
+  line-height: 20vh;
+}
+#moon{
+  position: absolute;
+  width: auto;
+  height: 30%;
+  right: -55px;
+}
+#komeet{
+  position: absolute;
+  width: auto;
+  height: 15%;
+  right: 70%;
+  bottom: 5%;
+}
+#mars{
+  position: absolute;
+  width: auto;
+  height: 20%;
+  right: 30%;
+  top: 30%;
+}
+#morning{
+  text-align: center;
+  font-size: 200%;
+  color: white;
+}
+#night{
+  text-align: center;
+  font-size: 200%;
+  color: white;
+}
+
+@media (min-width: 550px){
+  #moon{
+      position: absolute;
+      width: auto;
+      height: 40%;
+      right: -55px;
+  }
+  #komeet{
+    position: absolute;
+    width: auto;
+    height: 15%;
+    right: 70%;
+    bottom: 5%;
+  }
+  #mars{
+    position: absolute;
+    width: auto;
+    height: 25%;
+    right: 30%;
+    top: 40%;
+  }
+  #txt {
+    font-size: 70px;
+    line-height: 70vh;
+  }
+  #message{
+    font-size: 35px;
+    line-height: 5vh;
+  }
+}
+@media (min-width: 950px){
+  #txt {
+    font-size: 100px;
+    line-height: 70vh;
+  }
+  #message{
+    font-size:50px;
+    line-height: 5vh;
+  }
+  #komeet{
+    position: absolute;
+    width: auto;
+    height: 25%;
+    right: 70%;
+    bottom: 5%
+  }
+  #mars{
+    position: absolute;
+    width: auto;
+    height: 25%;
+    right: 30%;
+    top: 40%;
+  }
+}
